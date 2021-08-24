@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:500&display=swap');
+
+@keyframes transitionIn{
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0deg); 
+  }
+}
+
+::selection {
+  background-color: #d4e2f5;
+  color: rgba(0,0,0,.87);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+body, html {
+  height: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+li, a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none
+}
+
+header {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  background-color: #1f456e;
+  border-radius: 15px;
+  border: 5px rgb(91, 103, 119) solid;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  margin: 15;
+  text-align: center;
+}
+
+.model {
+  -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    animation: transitionIn 5s;
+    -webkit-animation: transitionIn 5s;
+    -moz-animation: transitionIn 5s;
+    -o-animation: transitionIn 5s;
+    -ms-animation: transitionIn 5s;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.home {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.nav__links {
+  list-style: none
+}
+
+.logo {
+  max-height: 72px;
+  max-width: 250px;
+}
+
+.image {
+  margin: 1px;
+  background-image: url(https://cdn.discordapp.com/attachments/842393848638341180/862349879220633660/Untitled_Artwork.png);
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 75vmin;
+  width: 75vmin;
+  max-height: 440px;
+  max-width: 440px;
+  animation: transitionIn 5s;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.a {
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.li, a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+}
+
+.a {
+  -webkit-box-direction: normal;
+  text-align: justify;
+  line-height: 1.4285em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.text {
+  -webkit-box-direction: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: justify;
+  color: #fff;
+  animation: transitionIn 5s;
+  line-height: 1.4285em;
+}

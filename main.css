@@ -128,7 +128,7 @@ header {
 
 .image {
   margin: 1px;
-  background-image: url('images/Untitled_Artwork copy 5.png');
+  background-image: image/png('images/Untitled_Artwork copy 5.png');
   background-position: center;
   background-size: cover;
   display: block;

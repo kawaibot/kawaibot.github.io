@@ -90,6 +90,9 @@ header {
     -moz-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    padding-top: 0;
+    padding-right: 100;
+    padding-left: 100
 }
 
 .home {
@@ -187,7 +190,7 @@ header {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 60px;
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;

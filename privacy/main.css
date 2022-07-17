@@ -129,8 +129,8 @@ header {
   background-image: url("/images/kawai privacy.png");
   background-position: center;
   background-size: cover;
-  display: block;
-  height: 75vmin;
+  display: inline-block;
+  height: 25vmin;
   width: 75vmin;
   animation: transitionIn 5s;
 }

@@ -126,7 +126,7 @@ header {
 
 .p_image {
   margin: 1px;
-  background-image: url("images/kawai privacy.png");
+  background-image: url("/images/kawai privacy.png");
   background-position: center;
   background-size: cover;
   display: block;

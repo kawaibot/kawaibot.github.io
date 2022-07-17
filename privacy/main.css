@@ -197,22 +197,6 @@ header {
   font-size: 20px;
 }
 
-.htext {
-  -webkit-box-direction: normal;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  font-size: 60px;
-  margin-top: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
-  text-align: justify;
-  color: #fff;
-  animation: transitionIn 5s;
-  line-height: 1.4285em;
-}
-
 .text {
   -webkit-box-direction: normal;
   margin: 0;

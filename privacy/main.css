@@ -124,6 +124,19 @@ header {
   list-style: none
 }
 
+.image {
+  margin: 1px;
+  background-image: url("images/kawai privacy.png");
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 75vmin;
+  width: 75vmin;
+  max-height: 440px;
+  max-width: 440px;
+  animation: transitionIn 5s;
+}
+
 .logo {
   max-height: 72px;
   max-width: 250px;

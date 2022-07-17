@@ -124,7 +124,7 @@ header {
   list-style: none
 }
 
-.image {
+.p_image {
   margin: 1px;
   background-image: url("images/kawai privacy.png");
   background-position: center;
@@ -132,8 +132,6 @@ header {
   display: block;
   height: 75vmin;
   width: 75vmin;
-  max-height: 440px;
-  max-width: 440px;
   animation: transitionIn 5s;
 }
 

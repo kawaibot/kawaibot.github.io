@@ -187,10 +187,10 @@ header {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
   text-align: justify;
   color: #fff;
   animation: transitionIn 6s;
